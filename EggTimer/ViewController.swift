@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     // Create a dict
 
-    let times: [String: Int] = ["Soft": 300, "Medium": 480, "Hard": 720]
+    let times: [String: Int] = ["Soft": 3, "Medium": 5, "Hard": 7]
 
     var totalTime: Int = 0
     var secondPassed: Int = 0
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     }
 
     @objc func updateTimer() {
-        if secondPassed < totalTime {
+        if secondPassed <= totalTime {
             secondPassed += 1
 
             // Int değerindeki türündeki bir değerin bölümünü Float'a çevirsek bile istediğimiz sonucu alamıyorduk.
