@@ -64,6 +64,13 @@ In this repository, I will create EggTimer App with Swift. I will use Swift Time
 
 
   - [x] Project Setup
+  - [x] Create a Timer
+  - [x] Create a Progress Bar
+  - [x] Create a Update Timer Function
+  - [x] Add alarm sound when the timer is done
+  - [x] Update Timer when another time is selected
+  - [x] Add percentage label to the progress bar
+  - [x] Project Done
   
   
 <p align="center">(Still working on it...)</p>
